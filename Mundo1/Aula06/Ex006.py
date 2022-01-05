@@ -1,0 +1,6 @@
+valor = float(input('Digite um valor: '))
+valorRaiz = valor ** (1/2)
+print('Valor digitado foi {}'.format(valor))
+print('Seu dobro é {}'.format((valor*2)))
+print('Seu triplo é {}'.format((valor*3)))
+print('Sua raiz quadrada é {:2f}.'.format(valorRaiz))

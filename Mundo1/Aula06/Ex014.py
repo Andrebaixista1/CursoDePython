@@ -1,0 +1,1 @@
+# Conversor de temperaturas Cº -> Fº -> Kº
