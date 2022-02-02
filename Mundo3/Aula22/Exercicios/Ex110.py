@@ -1,3 +1,6 @@
+# Exercício Python 110: Adicione o módulo moeda.py criado nos 
+# desafios anteriores, uma função chamada resumo(), que mostre na tela 
+# algumas informações geradas pelas funções que já temos no módulo criado até aqui.
 
 
 import moeda as md
@@ -6,7 +9,5 @@ os.system('cls')
 
 
 p = float(input('Digite o preço: R$ '))
-print(f'A metade de {md.moeda(p)} é {md.metade(p, True)}')
-print(f'O dobro de {md.moeda(p)} é {md.dobro(p, True)}')
-print(f'Aumentando 10%, temos {md.aumentar(p, 10, True)}')
-print(f'Diminuindo 13%, temos {md.diminuir(p, 13)}')
+md.resumo(p, 20, 13)
+print('')
