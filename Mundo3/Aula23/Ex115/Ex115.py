@@ -14,14 +14,17 @@ while True:
     if resposta == 1:
         cabecalho('Opção 1')
     elif resposta == 2:
-        cabecalho('Opção 2')
+        cabecalho('Novo Cadastro')
+        nome = str(input('Nome: '))
+        idade = LeiaInt('Idade: ')
+        cadastrar(arq, nome, idade)
     elif resposta == 3:
-        cabecalho('Opção 3')
+        lerArquivo(arq)
     elif resposta == 4:
         cabecalho('Saindo do Sistema')
         break
     else:
         cabecalho('\033[33mERRO: por favor, digite um número inteiro válido.\033[m')
-    sleep(1)
-    os.system('cls')
+        sleep(1)
+        os.system('cls')
 
