@@ -3,7 +3,7 @@
 # o valor retornado por elas vai ser ou não formatado pela 
 # função moeda(), desenvolvida no desafio 108.
 
-import moeda as md
+from Mundo3.Aula22.Exercicios.arquivos import moeda as md
 import os
 os.system('cls')
 

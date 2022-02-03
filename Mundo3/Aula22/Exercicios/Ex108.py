@@ -2,7 +2,7 @@
 # função adicional chamada moeda() que consiga mostrar os números como um 
 # valor monetário formatado.
 
-import moeda as md
+from Mundo3.Aula22.Exercicios.arquivos import moeda as md
 import os
 os.system('cls')
 
